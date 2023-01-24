@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "solc": "^0.8.17"
+  },
+  "scripts": {
+    "compile": "solcjs --bin --abi --include-path nodes_modules/ --base-path . -o . SimpleStorage.sol"
+  }
+}
